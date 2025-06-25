@@ -3,7 +3,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 import { PrismaClient } from '@prisma/client';
 
-//Rotas a serem criadas ainda
 
 import authRoutes from './routes/auth';
 import couseRoutes from './routes/courses';
